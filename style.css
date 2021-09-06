@@ -55,39 +55,112 @@ body {
 }
 
 .blocco{
-    height: 400px;
-    background-color: rgba(225, 214, 122, 1);
+    height: 730px;
+    background-image: url("/img/banner.jpg");
+    background-color: rgba(180, 180, 180, 0.815); 
+    background-blend-mode:multiply;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 450px;
+    padding-left: 45px;
+    border-radius: 1%;
+    margin-bottom: 2rem;
+
 }
+
+.text {
+    color: white;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+
+}
+.sottotitolo {
+    font-size: 25px;
+}
+
+   
+
 .soprablocco{
     margin-top: 1rem;
     height: 100px;
-    background-color: rgba(171, 207, 231, 1);
 }
+.leadership {
+    font-family:'Montserrat', sans-serif;
+}
+.sottoleadership {
+    color: rgb(133 133 133 / 55%);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+    
 .macroblocco{
     padding-top: 1rem;
     height: 400px;
-    background-color: rgba(0, 134, 255, 1)
+   
 }
 .blocco1{
     float: right;
-    height: 370px;
-    width: 250px;
-    background-color: rgba(171, 207, 231, 1);
+    height: 400px;
+    width: 285px;
+    opacity: 0.5;
+     
+    
+}
+.immagine1 {
+    border-radius: 2%;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-color: rgba(180, 180, 180, 0.815); 
+    background-image: url("/img/img-3.jpg");
+    background-blend-mode:multiply;
+    
+    
 }
 .blocco3{
     float: left;
-    height: 370px;
-    width: 250px;
-    background-color: rgba(171, 207, 231, 1);
+    height: 200px;
+    width: 285px;
+    opacity: 0.5;
+   
+}
+.immagine3{
+    height: 180px;
+    background-image: url("/img/img-1.jpg");
+    background-color: rgba(180, 180, 180, 0.815); 
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
 }
 .blocco2{
-    height: 370px;
-    width: 500px;
+    height: 200px;
+    width: 610px;
     margin-inline: auto;
-    background-color: rgba(171, 207, 231, 1);
+    opacity: 0.5;
+    
+}
+.immagine2{
+    height: 180px;
+    background-image: url("/img/banner-2.jpg");
+    background-color: rgba(180, 180, 180, 0.815); 
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+
 }
 .sottoblocco{
     margin-top: 1rem;
     height: 100px;
     background-color:rgba(136, 1, 254, 1);
+}
+.testo{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family:'Montserrat', sans-serif;
 }
