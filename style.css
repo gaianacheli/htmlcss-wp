@@ -17,18 +17,43 @@ body {
     padding-left: 5rem;
     padding-right: 5rem;
 }
-
-    .debug > .contenut {
-        height: 300px;
-    }
     
 
 .sitehearder {
-    height: 100px;
-    background-color:rgba(229, 121, 230, 1);
+   
+    background-color:white;
     margin-bottom: 1rem;
    
 }
+
+.logo {
+    height: 70px;
+    margin-bottom: 30px;
+    border-right-width: 5px;
+    border-right:solid;
+    border-right-color: rgba(133, 133, 133, 0.28);
+    padding-right: 1rem;
+    
+}
+
+#menu ul {
+    width: 800px;
+    padding: 0;
+    display: block;
+    list-style-type:none;
+    margin-bottom: 30px;
+   
+}
+   
+#menu li {
+    display: inline;
+    color: rgba(133, 133, 133, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding:4px ;
+    
+}
+
 .blocco{
     height: 400px;
     background-color: rgba(225, 214, 122, 1);
