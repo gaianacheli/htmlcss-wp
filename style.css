@@ -59,7 +59,6 @@ body {
     background-image: url("/img/banner.jpg");
     background-color: rgba(180, 180, 180, 0.815); 
     background-blend-mode:multiply;
-    opacity: 0.5;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,7 +104,7 @@ body {
     float: right;
     height: 400px;
     width: 285px;
-    opacity: 0.5;
+    
      
     
 }
@@ -123,7 +122,7 @@ body {
     float: left;
     height: 200px;
     width: 285px;
-    opacity: 0.5;
+    
    
 }
 .immagine3{
@@ -140,7 +139,7 @@ body {
     height: 200px;
     width: 610px;
     margin-inline: auto;
-    opacity: 0.5;
+    
     
 }
 .immagine2{
@@ -157,10 +156,21 @@ body {
 .sottoblocco{
     margin-top: 1rem;
     height: 100px;
-    background-color:rgba(136, 1, 254, 1);
+    
 }
 .testo{
     margin-top: 25px;
     margin-bottom: 15px;
     font-family:'Montserrat', sans-serif;
+    
+}
+.footer{
+    text-align: center;
+    margin-top: 80px;
+    font-family:'Montserrat', sans-serif;
+}
+
+
+#cuore {
+    color: red;
 }
